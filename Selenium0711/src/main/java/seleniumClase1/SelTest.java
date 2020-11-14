@@ -24,6 +24,7 @@ public class SelTest {
 			// Abriendo con la URL especificada
 			driver.get("https://www.cooltesters.com/tienda-de-cursos/selenium-con-java");
 			
+		
 	}
 
 }
