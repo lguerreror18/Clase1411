@@ -10,7 +10,7 @@ public class SelTest {
 
 	public static void main(String[] args) {
 
-			System.out.println("Test1");
+			System.out.println("Test");
 			
 			// Seteando el Path de nuestro driver, donde esta guardado
 			String exePath = Paths.get("").toAbsolutePath().toString() + File.separator + "drivers" + File.separator;
@@ -18,7 +18,7 @@ public class SelTest {
 			// Identificando el .exe para driver
 			System.setProperty("webdriver.chrome.driver", exePath + "chromedriver.exe");
 			
-			// CreaciÃ³n en tiempo de ejecucion
+			// Creación en tiempo de ejecucion
 			WebDriver driver = new ChromeDriver();
 			
 			// Abriendo con la URL especificada
