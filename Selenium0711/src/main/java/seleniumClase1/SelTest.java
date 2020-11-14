@@ -10,7 +10,7 @@ public class SelTest {
 
 	public static void main(String[] args) {
 
-			System.out.println("Test1");
+			System.out.println("Test");
 			
 			// Seteando el Path de nuestro driver, donde esta guardado
 			String exePath = Paths.get("").toAbsolutePath().toString() + File.separator + "drivers" + File.separator;
@@ -24,6 +24,7 @@ public class SelTest {
 			// Abriendo con la URL especificada
 			driver.get("https://www.cooltesters.com/tienda-de-cursos/selenium-con-java");
 			
+		
 	}
 
 }
